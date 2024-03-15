@@ -17,6 +17,9 @@ app.get("/", (req, res) => {
 app.get("/location", (req, res) => {
   res.render("Getlocation")
 })
+app.get("/:location/:group", (req, res) => {
+  res.render("GetGroup")
+})
 
 app.post("/location", (req, res) => {
   const location = req.body.location

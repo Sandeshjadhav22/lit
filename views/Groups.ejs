@@ -5,7 +5,9 @@
   <% for(let gp of groups) {%>
     <div class="GroupCard">
       <div class="groupName"><%= gp.name %></div>
-      <div class="buttonJoin"><button>Join</button></div>
+      <a href="/:location/:group">
+        <div class="buttonJoin"><button>Join</button></div>
+      </a>
     </div>
     <% } %>
   </div>

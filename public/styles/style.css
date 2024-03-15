@@ -509,16 +509,26 @@ video {
 
 .GroupCard{
     max-width: 60%;
-    min-height: 40%;
-    padding: 5% 10%;
+    min-height: 400px;
+    padding: 2% 5%;
     border: 0.5px solid;
+    border-radius: 8px;
+    font-weight: 400;
     border-color: #9ca3af;
-border-top: 3px splid #0000ff;    border-radius: 10px;
+    border-top: 3px splid #0000ff;    
     /* gap: 1%; */
     box-shadow: 0px 30px 40px -20px #888;
 }
+.GroupDescription{
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  color: rgb(55, 55, 55);
+}
 .groupName{
     font-weight: bold;
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    margin-bottom: 20px;
 }
 
 card-body h5.card-title{

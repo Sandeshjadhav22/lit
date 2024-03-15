@@ -472,6 +472,47 @@ video {
   white-space: nowrap;
   border-width: 0;
 }
+.buttonHome{
+    margin-top: 3.4%;
+    margin-left: 47%;
+    padding: 15px;
+    border-radius: 11px;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+
+    background-color: #2563eb;
+}
+
+.GroupCard{
+    width: 50px;
+    border-color: #9ca3af;
+    border-radius: 10px;
+}
+.groupName{
+    font-weight: bold;
+}
+
+card-body h5.card-title{
+ font-weight: bold;
+ border:#1d4ed8;
+ color:blue
+}
+
+.locationPage{
+    margin-top: 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+.inputBox{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    
+    border-color: #9ca3af;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
